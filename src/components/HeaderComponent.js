@@ -11,16 +11,16 @@ class Header extends Component {
         this.state = {
             isNavOpen: false
         };
-}
+    }
 
-toggleNav() {
-    this.setState({
-        isNavOpen: !this.state.isNavOpen
-    });
-}
+    toggleNav() {
+        this.setState({
+            isNavOpen: !this.state.isNavOpen
+        });
+    }
 
     render() {
-        return(
+        return (
             <React.Fragment>
                 <Jumbotron fluid>
                     <div className="container">
@@ -32,6 +32,7 @@ toggleNav() {
                         </div>
                     </div>
                 </Jumbotron>
+
                 <Navbar dark sticky="top" expand="md">
                     <div className="container">
                         <NavbarBrand className="mr-auto" href="/"><img src="/assets/images/logo.png" height="30" width="30" alt="NuCamp Logo" /></NavbarBrand>
