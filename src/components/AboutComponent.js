@@ -29,7 +29,7 @@ function About(props) {
         );
     });
 
-    return(
+    return (
         <div className="container">
             <div className="row">
                 <div className="col">
@@ -39,7 +39,7 @@ function About(props) {
                     </Breadcrumb>
                     <h2>About Us</h2>
                     <hr />
-                </div>                
+                </div>
             </div>
             <div className="row row-content">
                 <div className="col-sm-6">
