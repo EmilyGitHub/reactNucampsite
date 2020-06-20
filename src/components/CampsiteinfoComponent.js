@@ -138,7 +138,8 @@ function CampsiteInfo(props) {
                     </div>
                 </div>
                 <div className="row">
-                <RenderComments 
+                    <RenderCampsite campsite={props.campsite} />
+                    <RenderComments 
                         comments={props.comments}
                         addComment={props.addComment}
                         campsiteId={props.campsite.id}
